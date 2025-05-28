@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="TP9_E01.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="95"/>
+        <CursorPos X="4" Y="111"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\inc\text.inc"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="11" Y="219"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="21">
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="42" Column="31" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="49" Column="15" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="38" Column="11" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="41" Column="18" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="36" Column="38" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="43" Column="15" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="41" Column="18" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\inc\text.inc"/>
+        <Caret Line="219" Column="11" TopLine="203"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="41" Column="18" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="37" Column="27" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="32" Column="12" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="58" Column="20" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="62" Column="28" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="65" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="35" Column="46" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="65" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="49" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="50" Column="25" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="102" Column="51" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="78" Column="10" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="79" Column="11" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="119" Column="51" TopLine="89"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
