@@ -18,6 +18,9 @@ Xxxxxxxxxxxxxxxx 99
 . . . . . .
 TOTAL 99 }
 
+const
+  CANT_DEST = 30;
+
 type
   st5 = string[5];
   st15 = string[15];
@@ -35,6 +38,8 @@ type
 
   TAPaq = file of TRPaq;
   TADest = file of TRDest;
+  TV = array[1..CANT_DEST] of word;
+  TVCad = array[1..CANT_DEST] of st15;
 
 procedure cargaPaq(var archPaq: TAPaq);
 var
@@ -70,6 +75,19 @@ begin
   close(archDest);
 end;
 
+procedure cargaTabla(var archDest: TADest; var tabla: TVCad);
+var
+  R: TRDest;
+begin
+  reset(archDest);
+  while not eof(archDest) do
+    begin
+      read(archDest, R);
+      tabla[R.codDest]:= R.descripcion;
+    end;
+  close(archDest);
+end;
+
 function pesoProm(var archPaq: TAPaq): real;
 var
   R: TRPaq;
@@ -89,6 +107,7 @@ begin
     pesoProm:= sum / cont
   else
     pesoProm:= 0;
+  close(archPaq);
 end;
 
 function montoTot(var archPaq: TAPaq): real;
@@ -104,37 +123,54 @@ begin
       monto:= monto + R.monto;
     end;
   montoTot:= monto;
+  close(archPaq);
 end;
 
-procedure listado(var archPaq: TAPaq, var archDest: TADest);
+procedure iniciaV(var vec: TV);
 var
-  cont, tot: word;
+  i: byte;
+begin
+  for i:= 1 to CANT_DEST do
+    vec[i]:= 0;
+end;
+
+procedure listado(tabla: TVCad; var archPaq: TAPaq);
+var
+  vec: TV;
   RPaq: TRPaq;
-  RDest: TRDest;
+  tot: word;
+  i: byte;
 begin
   tot:= 0;
+  iniciaV(vec);
   reset(archPaq);
-  reset(archDest);
   writeln('DESTINO      CANTIDAD DE PAQUETES');
   while not eof(archPaq) do
     begin
       read(archPaq, RPaq);
-      //preguntar
-
+      vec[RPaq.codDest]:= vec[RPaq.codDest] + 1;
+      tot:= tot + 1;
+    end;
+  for i:= 1 to CANT_DEST do
+    writeln(tabla[i],'      ', vec[i]);
+  writeln('Total: ', tot);
+  close(archPaq);
 end;
 
 var
   archPaq: TAPaq;
   archDest: TADest;
+  tabla: TVCad;
 
 begin
   assign(archPaq, 'PAQUETES.DAT');
   assign(archDest, 'DESTINO.DAT');
   cargaPaq(archPaq);
   cargaDest(archDest);
+  cargaTabla(archDest, tabla);
   writeln('Peso promedio: ', pesoProm(archPaq):5:2);
   writeln('Monto total: ', montoTot(archPaq):5:2);
-  listado(archPaq, archDest);
+  listado(tabla, archPaq);
   readln;
 end.
 

@@ -9,24 +9,19 @@
         <Filename Value="TP9_E01.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="95"/>
-        <CursorPos X="4" Y="111"/>
-        <UsageCount Value="22"/>
+        <TopLine Value="141"/>
+        <CursorPos X="25" Y="173"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\inc\text.inc"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="11" Y="219"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="21">
-      <Position>
-        <Filename Value="TP9_E01.lpr"/>
-        <Caret Line="42" Column="31" TopLine="23"/>
-      </Position>
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="TP9_E01.lpr"/>
         <Caret Line="49" Column="15" TopLine="23"/>
@@ -50,10 +45,6 @@
       <Position>
         <Filename Value="TP9_E01.lpr"/>
         <Caret Line="41" Column="18" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\inc\text.inc"/>
-        <Caret Line="219" Column="11" TopLine="203"/>
       </Position>
       <Position>
         <Filename Value="TP9_E01.lpr"/>
@@ -110,6 +101,46 @@
       <Position>
         <Filename Value="TP9_E01.lpr"/>
         <Caret Line="119" Column="51" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="7" Column="28"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="109" Column="38" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="126" TopLine="105"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="127" Column="3" TopLine="105"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="153" Column="27" TopLine="127"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="82" Column="25" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="148" Column="43" TopLine="121"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="141" Column="11" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="136" Column="15" TopLine="119"/>
+      </Position>
+      <Position>
+        <Filename Value="TP9_E01.lpr"/>
+        <Caret Line="166" Column="29" TopLine="25"/>
       </Position>
     </JumpHistory>
     <RunParams>
